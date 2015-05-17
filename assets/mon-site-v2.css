@@ -27,6 +27,7 @@
         {
             border-radius: 9px;
             padding: 0px;
+            margin-left: 20px;
         }
 
     @media all and (max-width: 768px)
@@ -38,19 +39,23 @@
 
 
         }
+    
 
 /* Jumbotron */
     .jumbotron
         {
-            margin-top: 50px;
+            margin-bottom: 0px;
             background: rgba(255, 255, 255, 0.5);
             border: solid 1px black;
         }
 
-    .jumbotron img 
-        {
-            padding-bottom: 20px;        
-        }
+
+/* Corps */
+
+    section
+{
+    padding-top: 51px;
+}
 
 /* Footer */
     footer.row 
