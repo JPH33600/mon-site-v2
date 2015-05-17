@@ -1,14 +1,8 @@
 /* Styles de base */
     body 
         {
-            background-color: #eef;
             color: #333;
-            background: url('assets/img/fond.jpg') no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;
-            position: relative;
+            background-color: #eef;
         }
 
     p
@@ -27,6 +21,22 @@
     img 
         {
             width: 100%;
+        }
+
+    #qui img
+        {
+            border-radius: 9px;
+            padding: 0px;
+        }
+
+    @media all and (max-width: 768px)
+        {
+            #qui img
+                {
+                    display: none;
+                }
+
+
         }
 
 /* Jumbotron */
