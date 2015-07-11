@@ -2,18 +2,25 @@
     body 
         {
             color: #333;
-            background-image: url(images/matrix5-2.png);
-            background-repeat: no-repeat;
-            background-color: black;
+            background-color: #d8d8d8;
         }
 
     p
         {
             text-align: justify;
         }
+
+    
    
 
 /* Titres */
+    #titre
+        {
+            margin-top: 60px;
+            text-align: center;
+            font-family: 'Monotype Corsiva';
+        }
+
     h1, h5
         {
             margin-bottom: 40px;
