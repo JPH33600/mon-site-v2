@@ -22,11 +22,22 @@
             font-family: 'Brush Script MT';
         }
 
+
     #titre h1
         {
             font-size: 150px;
         }
 
+        @media all and (max-width: 768px) {
+                #titre h1 
+                {
+                    display: none;
+                }
+                #accueil {
+                    margin-top: -50px;
+                }
+            }
+    
     #titre h1 i
         {
             color: #fffdad;
@@ -59,15 +70,12 @@
             margin-left: 20px;
         }
 
-    @media all and (max-width: 768px)
-        {
-            #qui img
-                {
-                    display: none;
-                }
-
-
-        }
+        @media all and (max-width: 768px) {
+                #qui img
+                    {
+                        display: none;
+                    }
+            }
     
 
 /* Jumbotron */
