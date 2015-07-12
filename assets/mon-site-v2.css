@@ -16,15 +16,35 @@
 /* Titres */
     #titre
         {
-            margin-top: 60px;
+            margin-top: 50px;
+            margin-bottom: -70px;
             text-align: center;
-            font-family: 'Monotype Corsiva';
+            font-family: 'Brush Script MT';
         }
 
-    h1, h5
+    #titre h1
+        {
+            font-size: 150px;
+        }
+
+    #titre h1 i
+        {
+            color: #fffdad;
+        }
+
+    .container h1, h5
         {
             margin-bottom: 40px;
+            font-family: 'Times New Roman';
         }
+
+
+/* carousel */
+
+    #monCarousel
+    {
+        margin-top: 70px;
+    }
 
 /* Images */
     img 
@@ -62,12 +82,18 @@
 /* Corps */
 
     section
-{
-    padding-top: 51px;
-}
+        {
+            margin-bottom: -51px;
+            padding-top: 102px;
+        }
+
+    .container p
+        {
+            font-family: 'Times New Roman';
+        }
 
 /* Footer */
     footer.row 
         {
-            margin: 20px 0 40px 0;
+            margin: 78px 0 40px 0;
         }

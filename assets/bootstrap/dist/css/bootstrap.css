@@ -4490,18 +4490,21 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #fffdad; /* couleur du texte des boutins de la barre de nav noire */
 }
-.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: black; /* couleur du texte des boutins de la barre de nav noire - au survol */
+  background-color: #fffdad; /* couleur du du fond des boutins de la barre de nav noire - au survol */
+}
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: transparent;
+  color: black; /* couleur du texte des boutins de la barre de nav noire - après le clic (ne reste pas) */
+  background-color: #fffdad; /* couleur du du fond des boutins de la barre de nav noire - après le clic (ne reste pas) */
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #080808;
+  color: black; /* couleur du texte des boutins de la barre de nav noire - après le clic (reste) */
+  background-color: #fffdad; /* couleur du du fond des boutins de la barre de nav noire - après le clic (reste) */
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,

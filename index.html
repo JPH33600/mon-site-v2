@@ -6,7 +6,7 @@
         <meta charset="utf-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Vu de ma fenêtre</title>
+        <title>Vu de ma Fenêtre</title>
         <meta name="description" content="premier site web de JPH33600">
 
         <link href="assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
@@ -35,7 +35,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                <a class="navbar-brand" href="#">Vu de ma fenêtre...</a>
+                <a class="navbar-brand" href="#">Vu de ma Fenêtre...</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -53,8 +53,63 @@
         <!--  Corps  ================================================== -->
 
         <div id="titre">
-            <h1>Vu de ma Fenêtre</h1>
+            <h1><i>V</i>u de ma <i>F</i>enêtre</h1>
         </div>
+
+    <!-- Caroussel
+    ================================================== -->
+    <div id="monCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicateurs -->
+      <ol class="carousel-indicators">
+        <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#monCarousel" data-slide-to="1"></li>
+        <li data-target="#monCarousel" data-slide-to="2"></li>
+        <li data-target="#monCarousel" data-slide-to="3"></li>
+      </ol>
+      <!-- Diapositives -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/images/w40k-1.jpg" alt="figurine w40k">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>"Dans les ténèbres d'un lointain futur...</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/w40k-2.jpg" alt="figurine w40k">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>... Il n'y a ni paix...</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/w40k-3.jpg" alt="figurine w40k">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>... ni répit...</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/w40k-4.jpg" alt="figurine w40k">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3>... Il n'y a que la guerre !"</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contrôles -->
+      <a class="left carousel-control" href="#monCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#monCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>  
+    </div>
+
 
 
 
@@ -62,26 +117,27 @@
 
             <section id="accueil">
                 <div class="jumbotron container row">
-                    <h1 class="text-center">Bienvenue sur mon premier site</h1>     
-                    <p class="col-xs-12">Cette page web est ma toute première. Bon, non, ok, pas la toute toute première si on compte celles que j'ai faites dans le cadre de mes exercices pendant que je suivais les cours d'OpenClassrooms.</p>
-                    <p class="col-sm-12">Je sais qu'elle est somme toute assez simple mais en même temps, c'est ma première ! Sous cet encadré, vous trouverez deux autres parties (pour l'instant). Dans la première (vide pour le moment), je vous mettrai ce que j'ai fait d'autre. Il y est notamment prévu mon CV. Dans la seconde je me présenterai un peu plus (mais pas trop non plus). Notez que vous pouvez à tout moment accéder à l'une ou à l'autre par la barre de navigation en haut de page (mais vous savez probablement mieux que moi comment ça marche !).</p>
+                    <h1 class="text-center">Bienvenue sur mon premier site web</h1>     
+                    <p class="col-xs-12">Hormis deux ou trois trucs que j'ai faits pendant mes cours sur OpenClassrooms, ce site web est mon tout premier !</p>
+                    <p class="col-sm-12">Il est assez basique, je vous l'accorde, tant sur la forme que sur le fond... Mais, bon, c'est mon premier en même temps ! C'est donc un "site statique", sans PHP et avec un minimum de JavaScript (que je n'ai fait que recopier dans un exercice de cours...) car, pour l'instant, je ne maîtrise pas ces langages. Mais j'y travaille !</p>
+                    <p class="col-sm-12">J'ai quand même tenu à mettre un carousel, mais, faute de réalisations web ou design à vous montrer, j'y ai mis des photos de figurines que j'ai peintes il y a quelques années... Et dont je suis particulièrement fier, soyons francs ! J'en avais d'autres mais je les toutes offertes... Et honnêtement, ces temps-ci, je n'ai pas le temps de me remettre à la peinture... Mais ça aussi c'est un projet en cours !</p>
                 </div>
             </section>
 
             <section id="quoi">
                 <div class="jumbotron container row">
-                    <h1 class="text-center">Mes autres réalisations</h1>
+                    <h1 class="text-center">Mes réalisations web</h1>
                     <h5 class="text-center">[WORK IN PROGRESS]</h5>
-                    <p class="col-xs-12">Pour l'instant je n'ai rien fait d'autre... Mais ça va venir !</p>
+                    <p class="col-xs-12"></p>
                 </div>
             </section>
             
             <section id="qui">
                 <div class="jumbotron container row">
                     <h1 class="text-center">Qui suis-je ?</h1>
-                    <p class="col-sm-12 col-md-7">Dans la "vraie vie", je m'appelle Jérôme, mais sur le web c'est JPH33600. J'ai 31 ans, je suis marié et j'habite sur Bordeaux. Malgré mon jeune âge j'ai déjà une petite expérience de 10 ans en tant que rédacteur technique... mais je n'en dirais pas plus ici. Tout ce que je peux dire c'est que j'entame actuellement une reconversion professionnelle et que je souhaite m'orienter vers les métiers du web (genre développeur web, web designer ou rédacteur web). Dans ce but, je suis des cours sur OpenClassrooms et j'envisage d'autres formations, via le CNAM par exemple. Pour voir un peu ce qui se faisait et aussi un peu pour me faire voir, je me suis ouvert aux réseaux sociaux (vous en trouverez d'ailleurs une petite brochette juste ne dessous). Si ce que vous avez vu vous a plu, n'hésitez pas cliquez sur une des icônes ci-dessous et à me contacter !</p>
+                    <p class="col-sm-12 col-md-7">Dans la "vraie vie", je m'appelle Jérôme, mais sur le web c'est JPH33600. J'ai 31 ans, je suis marié et j'habite sur Bordeaux. Malgré mon jeune âge j'ai déjà une petite expérience de 10 ans en tant que rédacteur technique... mais je n'en dirai pas plus ici. Tout ce que je peux vous dévoiler c'est que j'entame actuellement une reconversion professionnelle et que je souhaite m'orienter vers les métiers du web (genre développeur (frontend ou fullstack), designer UI/UX ou Community Manager pourquoi pas). Dans ce but, je suis des cours sur OpenClassrooms et j'envisage d'autres formations, via le CNAM par exemple. Pour voir un peu ce qui se fait dans le secteur et aussi pour me donner de la visibilité, je me suis ouvert aux réseaux sociaux ! N'hésitez donc pas à me contacter !</p>
                 <div class="col-md-5">
-                    <img src="assets/images/matrix2.jpg" alt="JPH33600" title="JPH33600"></div>            
+                    <img src="assets/images/avatar.png" alt="JPH33600" title="JPH33600"></div>            
                 </div>
             </section>
 
@@ -89,7 +145,7 @@
 
         <footer class="row text-center">
         <a class="btn btn-default" href="https://twitter.com/jph33600" target="_blank" title="Twitter - JPH33600"><i class="fa fa-twitter fa-2x"></i></a>
-        <a class="btn btn-default" href="https://www.facebook.com/profile.php?id=100009716163256" target="_blank" title="Facebook - JPH33600"><i class="fa fa-facebook fa-2x"></i></a>
+        <a class="btn btn-default" href="https://www.facebook.com/profile.php?id=100009716163256" target="_blank" title="Facebook - JPH JPH"><i class="fa fa-facebook fa-2x"></i></a>
         <a class="btn btn-default" href="https://plus.google.com/u/2/103683793353721378582/about" target="_blank" title="Google+ - JPH33600"><i class="fa fa-google-plus fa-2x"></i></a>
         <a class="btn btn-default" href="https://www.linkedin.com/profile/view?id=422064228&amp;trk=nav_responsive_tab_profile" target="_blank" title="LinkedIn - JPH33600"><i class="fa fa-linkedin fa-2x"></i></a>
         <a class="btn btn-default" href="https://fr.pinterest.com/jph33600/" target="_blank" title="Pinterest - JPH33600"><i class="fa fa-pinterest fa-2x"></i></a>
