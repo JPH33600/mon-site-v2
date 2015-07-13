@@ -33,6 +33,9 @@
                 {
                     display: none;
                 }
+                #monCarousel {
+                    margin-top: 50px;
+                }
                 #accueil {
                     margin-top: -50px;
                 }

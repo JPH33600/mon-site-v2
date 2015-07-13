@@ -4493,18 +4493,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #fffdad; /* couleur du texte des boutins de la barre de nav noire */
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: black; /* couleur du texte des boutins de la barre de nav noire - au survol */
-  background-color: #fffdad; /* couleur du du fond des boutins de la barre de nav noire - au survol */
+  color: black; /* couleur du texte des boutons de la barre de nav noire - au survol */
+  background-color: #fffdad; /* couleur du du fond des boutons de la barre de nav noire - au survol */
 }
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: black; /* couleur du texte des boutins de la barre de nav noire - après le clic (ne reste pas) */
-  background-color: #fffdad; /* couleur du du fond des boutins de la barre de nav noire - après le clic (ne reste pas) */
+  color: black; /* couleur du texte des boutons de la barre de nav noire - après le clic (ne reste pas) */
+  background-color: #fffdad; /* couleur du du fond des boutons de la barre de nav noire - après le clic (ne reste pas) */
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: black; /* couleur du texte des boutins de la barre de nav noire - après le clic (reste) */
-  background-color: #fffdad; /* couleur du du fond des boutins de la barre de nav noire - après le clic (reste) */
+  color: black; /* couleur du texte des boutons de la barre de nav noire - après le clic (reste) */
+  background-color: #fffdad; /* couleur du du fond des boutons de la barre de nav noire - après le clic (reste) */
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4520,7 +4520,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #333;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #fffdad; /* couleur des barres du bouton de la barre de nav noire sur petit écran */
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
